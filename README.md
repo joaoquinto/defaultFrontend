@@ -34,40 +34,10 @@
 - É feito o reset de quase todos os estilos padrões
 
 ```
-html,
-body,
-div,
-span,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-a,
-em,
-img,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-article,
-footer,
-header,
-nav,
-section,
-main {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 img {
@@ -75,14 +45,9 @@ img {
   max-width: 100%;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 ul,
 li {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
