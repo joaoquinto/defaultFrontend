@@ -45,7 +45,6 @@ img {
   max-width: 100%;
 }
 
-
 ul,
 li {
   list-style: none;
@@ -53,5 +52,19 @@ li {
 
 a {
   text-decoration: none;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+  font-style: ;
+  font-weight: ;
+  /* Faz rederizar a fonte padrão do computador em vez da fonte declarada e impede do texto ficar invisível,
+     Isso ocorre quando a internet do usuário está lenta;\*
+  font-display: swap;
+}
+
+:root {
+
 }
 ```
