@@ -10,7 +10,7 @@
 - meta tags de compartilhamento: Facebook, Whatsapp e instagram, Twitter
 
 
-```
+```HTML
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="João Victor Oliveira Pereira, github: @joaoquinto">
@@ -33,7 +33,7 @@
 
 - É feito o reset de quase todos os estilos padrões
 
-```
+```CSS
 * {
   margin: 0;
   padding: 0;
@@ -68,3 +68,25 @@ a {
 
 }
 ```
+
+### Arquivo base para Stylus
+
+```stylus
+*
+  margin: 0
+  padding: 0
+
+
+img
+    display: block
+    max-width 100%
+
+ul
+  li
+    list-style none
+
+a
+  text-decoration: none
+```
+
+
